@@ -24,6 +24,33 @@ Each review is analyzed using Google's Gemini model, and the results can be stor
 - **Database Storage:** Saves analyzed reviews in SQLite and allows users to access previous results.
 - **Error Handling:** Handles unsuccessful review analyses without stopping the entire batch.
 
+
+## Application Screenshots
+
+### 1. AI-Powered Review Analysis
+
+Users can submit multiple customer reviews and receive
+AI-generated sentiment labels, satisfaction scores,
+and feedback themes.
+
+![Review Analysis](screenshots/analysis.png)
+
+### 2. Customer Feedback Summary
+
+The dashboard summarizes customer satisfaction through
+average scores, positive review percentages, and
+frequently mentioned topics.
+
+![Feedback Summary](screenshots/summary.png)
+
+### 3. Database Storage and History
+
+Analyzed reviews can be saved to a SQLite database
+and retrieved through the Saved History section.
+
+![Database History](screenshots/database.png)
+
+
 ## Technologies Used
 
 | Technology | Purpose |
